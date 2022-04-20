@@ -1,0 +1,9 @@
+clc,clear
+a=0;
+b=30;
+step=1e-4;
+x=a:step:b;
+v0=v(x);
+dv=1800./(64-x)-9.8;
+plot(x,v0);
+plot(x,dv);
